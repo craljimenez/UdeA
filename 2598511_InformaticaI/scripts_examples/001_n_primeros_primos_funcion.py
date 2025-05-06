@@ -18,6 +18,7 @@ def nombre_funcion(entradas):
     
     return salidas
 """
+
 def calcular_si_es_primo(num):
     h  = 2
     cont_factores = 0
@@ -30,6 +31,8 @@ def calcular_si_es_primo(num):
     else:
         resultado = False
     return resultado
+
+
     
 
 #%%
