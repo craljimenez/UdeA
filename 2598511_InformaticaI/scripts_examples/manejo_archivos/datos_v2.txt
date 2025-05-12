@@ -1,0 +1,3 @@
+Nombre,Edad2,Apellidos,Nota,Observaciones
+Cristian,32,Jimenez Castaño,3.0,N/A
+Alfonso,32,Jimenez Castaño,3.0,N/A
