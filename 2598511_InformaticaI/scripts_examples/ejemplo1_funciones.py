@@ -6,7 +6,7 @@ def contar_vocales(cadena_texto):
     # i,j = 0,0
     i = 0
     while i < N:
-    	j = 0
+        j = 0
         while j < num_vocales:
             if cadena_texto[i] == vocales[j]:
                 contador_vocales += 1

@@ -13,6 +13,21 @@ de los valores impares. Cuando reciba un valor primo, debe notificarse que es pr
 
 El programa fnaliza cuando el usuario ingresa el valor de 0.
 """
+#%% Funciones
+
+def calcular_si_es_primo(num):
+    h = 2
+    contador_factores = 0
+    while h <= num//2: # n = 7, h = 2,3 (7//2=3) |9  2,3,4 , 9//2 = 4
+        if num%h == 0:
+            contador_factores += 1
+        h += 1
+    if contador_factores == 0:
+        resultado  = True
+    else:
+        resultado = False
+    return resultado
+#%% Scripts Principales
 
 contador_impares = 0
 sum_impares = 0
@@ -36,13 +51,8 @@ while True:
         print("El promedio de # impares hasta el momento es: ",prom_impares)
     
     # validar si es primo
-    h = 2
-    contador_factores = 0
-    while h <= n//2: # n = 7, h = 2,3 (7//2=3)
-        if n%h == 0:
-            contador_factores += 1
-        h += 1
-    if contador_factores == 0:
+    es_primo = calcular_si_es_primo(n)
+    if es_primo: # Operaciones relacionales, esas operaciones relacionales dan True o False
         print(f"\t{n} es primo")
 #Fin While principal.
     # Identación con 4 espacios
