@@ -47,7 +47,8 @@ while True:
     else: # solo entra si es impar
         contador_impares += 1 # contador_impares = contador_impares + 1 
         sum_impares += n
-        prom_impares = sum_impares/contador_impares
+        prom_impares = sum_impares\
+            /contador_impares
         print("El promedio de # impares hasta el momento es: ",prom_impares)
     
     # validar si es primo
