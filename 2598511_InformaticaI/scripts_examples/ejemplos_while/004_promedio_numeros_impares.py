@@ -7,6 +7,8 @@ El algortimo termina cuando el usuario ingresa un valor negativo.
 sum_impares = 0 # Iterador acumular
 cont_impares = 0 # Iterador Contador
 
+
+
 # for NO es una buena alternativa
 flag_condition = True
 while flag_condition:
