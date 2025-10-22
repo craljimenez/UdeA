@@ -1,0 +1,5 @@
+anio,titulo,cod
+2007,pattern recognition and machine learning,bishop2007
+1967,Cien años de soledad,gabriel1967
+2007,Probabilistic Machine Learning,murphy2007
+1949,1984,george1949
