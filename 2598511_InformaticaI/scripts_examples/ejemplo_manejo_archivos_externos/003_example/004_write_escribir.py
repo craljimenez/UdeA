@@ -14,6 +14,8 @@ while True:
     if respuesta == "no":
         break
 
+file.close()
+
     
 
 
